@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="250364" started-at="2021-09-15T13:03:57 EDT" finished-at="2021-09-15T13:08:07 EDT">
+    <groups>
+    </groups>
+    <test name="SanityTest" duration-ms="250364" started-at="2021-09-15T13:03:57 EDT" finished-at="2021-09-15T13:08:07 EDT">
+      <class name="digitalchannel.monassurance.VerifyQuoterLinksTest">
+        <test-method status="FAIL" signature="verifyQuoterLinks()[pri:0, instance:digitalchannel.monassurance.VerifyQuoterLinksTest@55b7a4e0]" name="verifyQuoterLinks" duration-ms="27270" started-at="2021-09-15T13:07:38 EDT" finished-at="2021-09-15T13:08:06 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The link with name Travel is broken with error code: 404 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The link with name Travel is broken with error code: 404 expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at digitalchannel.monassurance.VerifyQuoterLinksTest.verifyQuoterLinks(VerifyQuoterLinksTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuoterLinks -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:digitalchannel.monassurance.VerifyQuoterLinksTest@55b7a4e0]" name="teardown" is-config="true" duration-ms="1029" started-at="2021-09-15T13:08:06 EDT" finished-at="2021-09-15T13:08:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- digitalchannel.monassurance.VerifyQuoterLinksTest -->
+      <class name="digitalchannel.monassurance.EditNextPaymentDateTest">
+        <test-method status="FAIL" signature="editNextPaymentDate()[pri:0, instance:digitalchannel.monassurance.EditNextPaymentDateTest@393671df]" name="editNextPaymentDate" duration-ms="38721" started-at="2021-09-15T13:04:44 EDT" finished-at="2021-09-15T13:05:22 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at digitalchannel.monassurance.EditNextPaymentDateTest.editNextPaymentDate(EditNextPaymentDateTest.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNextPaymentDate -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:digitalchannel.monassurance.EditNextPaymentDateTest@393671df]" name="teardown" is-config="true" duration-ms="5249" started-at="2021-09-15T13:05:23 EDT" finished-at="2021-09-15T13:05:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- digitalchannel.monassurance.EditNextPaymentDateTest -->
+      <class name="digitalchannel.monassurance.DownloadPinkCardPdfTest">
+        <test-method status="PASS" signature="downloadPinkCradPdf()[pri:0, instance:digitalchannel.monassurance.DownloadPinkCardPdfTest@6eda5c9]" name="downloadPinkCradPdf" duration-ms="28869" started-at="2021-09-15T13:07:05 EDT" finished-at="2021-09-15T13:07:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadPinkCradPdf -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:digitalchannel.monassurance.DownloadPinkCardPdfTest@6eda5c9]" name="teardown" is-config="true" duration-ms="4779" started-at="2021-09-15T13:07:34 EDT" finished-at="2021-09-15T13:07:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- digitalchannel.monassurance.DownloadPinkCardPdfTest -->
+      <class name="digitalchannel.monassurance.UpdateCreditCardDetailsTest">
+        <test-method status="PASS" signature="updateCreditcardDetails()[pri:0, instance:digitalchannel.monassurance.UpdateCreditCardDetailsTest@56620197]" name="updateCreditcardDetails" duration-ms="92447" started-at="2021-09-15T13:05:28 EDT" finished-at="2021-09-15T13:07:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCreditcardDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:digitalchannel.monassurance.UpdateCreditCardDetailsTest@56620197]" name="teardown" is-config="true" duration-ms="4293" started-at="2021-09-15T13:07:00 EDT" finished-at="2021-09-15T13:07:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- digitalchannel.monassurance.UpdateCreditCardDetailsTest -->
+      <class name="digitalchannel.monassurance.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:digitalchannel.monassurance.LoginTest@50b472aa]" name="loginTest" duration-ms="41750" started-at="2021-09-15T13:03:57 EDT" finished-at="2021-09-15T13:04:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:digitalchannel.monassurance.LoginTest@50b472aa]" name="teardown" is-config="true" duration-ms="5061" started-at="2021-09-15T13:04:38 EDT" finished-at="2021-09-15T13:04:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- digitalchannel.monassurance.LoginTest -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- Suite -->
+</testng-results>

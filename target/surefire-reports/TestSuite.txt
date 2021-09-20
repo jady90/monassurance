@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 254.838 s <<< FAILURE! - in TestSuite
+digitalchannel.monassurance.EditNextPaymentDateTest.editNextPaymentDate  Time elapsed: 39.133 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at digitalchannel.monassurance.EditNextPaymentDateTest.editNextPaymentDate(EditNextPaymentDateTest.java:80)
+
+digitalchannel.monassurance.VerifyQuoterLinksTest.verifyQuoterLinks  Time elapsed: 27.89 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	The link with name Travel is broken with error code: 404 expected [true] but found [false]
+	at digitalchannel.monassurance.VerifyQuoterLinksTest.verifyQuoterLinks(VerifyQuoterLinksTest.java:63)
+
